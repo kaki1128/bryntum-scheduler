@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@^5.5.0",
-    "@bryntum/scheduler-react": "^5.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^4.0.3"
+    "@bryntum/scheduler": "npm:@bryntum/scheduler-trial@5.5.0",
+    "@bryntum/scheduler-react": "5.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,7 +31,8 @@
     ]
   },
   "devDependencies": {
-    "babel-preset-react-app": "npm:@bryntum/babel-preset-react-app@^10.0.0",
-    "sass": "~1.42.0"
+    "babel-preset-react-app": "npm:@bryntum/babel-preset-react-app@10.0.0",
+    "cross-env": "~7.0.3",
+    "sass": "~1.56.0"
   }
 }
